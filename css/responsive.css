@@ -82,8 +82,23 @@
     footer p { 
         font-size: .8rem;
     }
-    
 
+    /* 37. Align About p center */
+    #about p {
+        text-align: justify !important;
+    }
+
+    /* 38 Ubah Hr width */
+
+    hr {
+        width : 75%
+    }
+
+    /* 39. Ubah h1 */
+
+    h1 {
+        font-size : 2rem !important;
+    }
 }
 
 @media screen and ( max-width : 350px ) {
