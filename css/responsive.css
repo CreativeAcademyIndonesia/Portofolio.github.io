@@ -1,0 +1,112 @@
+/* Pengaturan */
+/* 1. Buat Rule Terlebih Dahulu */
+/* 2. Ubah font size pada #hero p */
+/* 3 sd 4 HTML */
+/* 5. Tambahkan Order */
+
+/* 10. Ubah tombolnya jadi 100% */
+/* 11. Hero img jadi 60% */
+/* 12. #hero .row tambahkan padding bottom */
+/* 13.Ubah Style.css #hero min-height : 100vh */
+/* 14. .social Icon left 50% */
+/* lets Go HTML */
+/* 15. Tambahkan Code Responsive di about */
+/* 17. tambahkan skil img  */
+
+/* 1 */
+@media screen and (max-width : 1200px) {
+    /* 2 */
+    #hero p {
+        font-size: .9rem;
+    }
+}
+
+@media screen and ( max-width : 992px ) {
+    
+}
+
+@media screen and ( max-width : 768px ) {
+
+    /* 12 */
+    #hero .row{
+        padding-bottom: 100px;
+    }
+
+        
+    .social-icon {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* 21. */
+    #skill .card h3 {
+        font-size: 1.3rem;
+    }
+
+    /* 22.  */
+/* Ganti height di card jadi 340 */
+
+/* 27.  */
+#skill .card {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-top: 20px;
+}
+
+/* 28. GO HTML Sertifikat */
+
+
+}
+
+@media screen and ( max-width : 576px ) {
+    /* 10. */
+    .btn-custom1 {
+        width: 80%;
+    }
+
+    /* 11 */
+    #hero img {
+        width: 60%;
+    }
+
+    /* 19. */
+    /* 20. GO HTML SKILL 2 */
+    .cv {
+        font-size: .9rem;
+    }
+
+    /* 36. edit ukuran img footer dan p */
+    footer img {
+        width: 75px;
+    }
+    footer p { 
+        font-size: .8rem;
+    }
+    
+
+}
+
+@media screen and ( max-width : 350px ) {
+    
+    /* 17. */
+    .skill img {
+        width: 33%;
+    }
+
+    /* 18.  */
+    #hero h1 {
+        font-size: 1.8rem;
+    }
+
+    /* 32.  */
+    #portofolio .col-md-12 {
+        flex-direction: column;
+    }
+
+    /* 33. Footer */
+
+    /* 34. Tambahkan social-icon-footer pada style.css  */
+    /* 35. Ubah juga Footernya */
+
+    /* 36. Go 576px */
+}
